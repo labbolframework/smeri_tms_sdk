@@ -1,0 +1,1 @@
+package com.labbol.smeri.api.entrust.feestandard;
