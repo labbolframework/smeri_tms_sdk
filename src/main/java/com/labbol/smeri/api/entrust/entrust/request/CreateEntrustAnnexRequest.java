@@ -20,6 +20,8 @@ public class CreateEntrustAnnexRequest extends AbstractUploadFileAPIRequest<Crea
 	
 	private String fileClass;
 	
+	private String fileVersion;
+	
 	private String creator;
 	
 	private String updator;
@@ -94,10 +96,20 @@ public class CreateEntrustAnnexRequest extends AbstractUploadFileAPIRequest<Crea
 		httpRequest.addFileItem(ENTRUST_ANNEX_FIELDNAME, FileItemFactory.create(file));
 	}
 	
+	public String getFileVersion() {
+		return fileVersion;
+	}
+
+	public void setFileVersion(String fileVersion) {
+		this.fileVersion = fileVersion;
+		httpRequest.addParam("fileVersion", fileVersion);
+	}
+
 	@Override
 	public void check() throws APIRuleException {
 		RequestCheckUtils.checkNotEmpty(entrustId, "entrustId");
 		RequestCheckUtils.checkNotEmpty(fileClass, "fileClass");
+		RequestCheckUtils.checkNotEmpty(fileVersion, "fileVersion");
 		RequestCheckUtils.checkNotEmpty(creator, "creator");
 		RequestCheckUtils.checkNotEmpty(updator, "updator");
 		RequestCheckUtils.checkNotEmpty(state, "state");

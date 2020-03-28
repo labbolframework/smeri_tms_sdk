@@ -10,6 +10,8 @@ public class Entrust {
 
 	private String id;
 	
+	private String entrustNo;
+	
 	private String customerId;
 	
 	private String customerName;
@@ -116,6 +118,8 @@ public class Entrust {
 	
 	private String state;
 
+	private String postCode;
+	
 	/**
 	 * @since 704所检测业务管理系统服务平台服务规范-委托及样品管理服务分册V1.1.doc
 	 * @since v1.0.1
@@ -574,6 +578,22 @@ public class Entrust {
 
 	public void setStandardIdList(List<String> standardIdList) {
 		this.standardIdList = standardIdList;
+	}
+
+	public String getEntrustNo() {
+		return entrustNo;
+	}
+
+	public void setEntrustNo(String entrustNo) {
+		this.entrustNo = entrustNo;
+	}
+
+	public String getPostCode() {
+		return postCode;
+	}
+
+	public void setPostCode(String postCode) {
+		this.postCode = postCode;
 	}
 	
 }
