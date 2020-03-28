@@ -19,7 +19,7 @@ public class ModifyOrigModifyLogRequest extends AbstractAPIRequest<ModifyOrigMod
 	private OrigModifyLog origModifyLog;
 
 	private static final String [] ORIG_MODIFY_LOG_NOT_BLANK_FIELDS = {"tokenId","projectId","modifier","modifyTime","modifyPos",
-			"creator","updator","state"};
+			"updator","state"};
 	
 	public ModifyOrigModifyLogRequest() {
 		super("/v1.0/service_test/modifyOrigModifyLog", "PUT");

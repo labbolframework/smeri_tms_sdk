@@ -20,7 +20,7 @@ public class ModifyReportSendRequest extends AbstractAPIRequest<ModifyReportSend
 	
 	private static final String [] REPORT_SEND_NOT_BLANK_FIELDS = {
 			"poaId","customerName","receiver","sender","sendType",
-			"sendTime","payState","payAmount","creator","updator"
+			"sendTime","payState","payAmount","updator"
 	};
 	
 	public ModifyReportSendRequest() {

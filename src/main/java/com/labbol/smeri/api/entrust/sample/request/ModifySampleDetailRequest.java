@@ -19,7 +19,7 @@ public class ModifySampleDetailRequest extends AbstractAPIRequest<ModifySampleDe
 	private static final String [] SAMPLE_DETAIL_NOT_BLANK_FIELDES = {
 			"sampleId","sampleNo","origReportNo","reportNo",
 			"gfReportNo","sampleState","flowState",
-			"creator","updator","state"
+			"updator","state"
 	};
 	
 	public ModifySampleDetailRequest() {

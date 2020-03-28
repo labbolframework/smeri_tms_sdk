@@ -18,7 +18,7 @@ public class ModifyEmployeeRequest extends AbstractAPIRequest<ModifyEmployeeResp
 
 	private Employee employee;
 
-	private static final String [] EMPLOYEE_NOT_BLANK_FIELDS = {"fullName","creator","updator"};
+	private static final String [] EMPLOYEE_NOT_BLANK_FIELDS = {"fullName","updator"};
 
 	public ModifyEmployeeRequest() {
 		super("/v1.0/service_resource/modifyEmployee", "PUT");

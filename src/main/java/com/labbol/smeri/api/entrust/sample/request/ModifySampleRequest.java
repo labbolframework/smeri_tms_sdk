@@ -17,7 +17,7 @@ public class ModifySampleRequest extends AbstractAPIRequest<ModifySampleResponse
 			"entrustId","productNo","sampleName","producer",
 			"sampleModel","sampleSize","sampleWeight","sampleNum",
 			"groupId",
-			"creator","updator","state"
+			"updator","state"
 	};
 
 	public ModifySampleRequest() {

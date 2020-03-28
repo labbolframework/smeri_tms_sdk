@@ -19,7 +19,7 @@ public class ModifyReportSendDetailRequest extends AbstractAPIRequest<ModifyRepo
 	private ReportSendDetail reportSendDetail;
 	
 	private static final String [] REPORT_SEND_DETAIL_SEND_NOT_BLANK_FIELDS = {
-			"sendId","reportId","sendNum","creator","updator"
+			"sendId","reportId","sendNum","updator"
 	};
 	
 	public ModifyReportSendDetailRequest() {

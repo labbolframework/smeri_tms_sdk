@@ -15,7 +15,7 @@ public class ModifyEntrustRequest extends AbstractAPIRequest<ModifyEntrustRespon
 
 	private static final String [] ENTRUST_NOT_BLANK_FIELDES = {
 			"customerId","customerName",
-			"creator","updator","state"
+			"updator","state"
 	};
 
 	public ModifyEntrustRequest() {
