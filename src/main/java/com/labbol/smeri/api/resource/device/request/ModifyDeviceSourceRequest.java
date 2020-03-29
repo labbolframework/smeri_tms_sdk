@@ -15,7 +15,10 @@ public class ModifyDeviceSourceRequest extends AbstractAPIRequest<ModifyDeviceSo
 	
 	private DeviceSource deviceSource;
 
-	private static final String [] DEVICE_SOURCE_NOT_BLANK_FIELDS = {"deviceId","sourceCycle","updator"};
+	private static final String [] DEVICE_SOURCE_NOT_BLANK_FIELDS = {
+			"deviceId","sourceCycle",
+			"updator","state"
+	};
 
 	public ModifyDeviceSourceRequest() {
 		super("/v1.0/service_resource/modifyDeviceSource", "PUT");

@@ -66,6 +66,12 @@ public class Employee {
 	private Date udpateTime;
 	
 	private String state;
+	
+	/**
+	 * @since 704所检测业务管理系统服务平台服务规范-资源管理服务分册V1.2.doc
+	 * @since v1.0.5
+	 */
+	private String groupName;
 
 	public String getId() {
 		return id;
@@ -305,6 +311,14 @@ public class Employee {
 
 	public void setState(String state) {
 		this.state = state;
+	}
+
+	public String getGroupName() {
+		return groupName;
+	}
+
+	public void setGroupName(String groupName) {
+		this.groupName = groupName;
 	}
 	
 }
