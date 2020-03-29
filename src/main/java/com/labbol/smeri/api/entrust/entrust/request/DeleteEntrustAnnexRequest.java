@@ -24,7 +24,7 @@ public class DeleteEntrustAnnexRequest extends AbstractAPIRequest<DeleteEntrustA
 
 	public void setEntrustAnnexId(String entrustAnnexId) {
 		this.entrustAnnexId = entrustAnnexId;
-		httpRequest.addParam(entrustAnnexId, "entrustAnnexId");
+		httpRequest.addParam("entrustAnnexId", entrustAnnexId);
 	}
 
 	@Override

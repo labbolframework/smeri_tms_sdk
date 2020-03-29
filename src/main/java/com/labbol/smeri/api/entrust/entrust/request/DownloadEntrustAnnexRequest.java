@@ -10,7 +10,7 @@ public class DownloadEntrustAnnexRequest extends AbstractAPIRequest<DownloadEntr
 	private String entrustAnnexId;
 
 	public DownloadEntrustAnnexRequest() {
-		super("/v1.0/service_entrust/downloadEntrustAnnex", "PUT");
+		super("/v1.0/service_entrust/downloadEntrustAnnex", "GET");
 	}
 
 	@Override
@@ -24,7 +24,7 @@ public class DownloadEntrustAnnexRequest extends AbstractAPIRequest<DownloadEntr
 
 	public void setEntrustAnnexId(String entrustAnnexId) {
 		this.entrustAnnexId = entrustAnnexId;
-		httpRequest.addParam(entrustAnnexId, "entrustAnnexId");
+		httpRequest.addParam("entrustAnnexId", entrustAnnexId);
 	}
 
 	@Override
