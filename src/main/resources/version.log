@@ -20,3 +20,9 @@
 	
 2020-03-30 v->1.0.6
 	1、修复QueryDeviceSourceRequest、QueryDeviceUseRequest 没有AbstractQueryAPIRequest类的问题
+	
+2020-03-31 v->1.0.7
+	1、修复了Query查询返回的是Map不是实体的问题
+	
+2020-03-31 v->1.0.8
+	1、修复了部分查询接口没有继承AbstractQueryAPIRequest问题
