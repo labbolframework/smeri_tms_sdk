@@ -4,6 +4,7 @@
 package com.labbol.smeri.api.task.token.support;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author PengFei
@@ -50,6 +51,16 @@ public class TokenProject {
 	private Date updateTime;
 	
 	private String state;
+	
+	/**
+	 * @since 1.0.10
+	 */
+	private List<TokenSample> tokenSampleList;
+	
+	/**
+	 * @since 1.0.10
+	 */
+	private List<TokenDevice> tokenDeviceList;
 
 	public String getId() {
 		return id;
@@ -210,7 +221,21 @@ public class TokenProject {
 	public void setState(String state) {
 		this.state = state;
 	}
-	
-	
+
+	public List<TokenSample> getTokenSampleList() {
+		return tokenSampleList;
+	}
+
+	public void setTokenSampleList(List<TokenSample> tokenSampleList) {
+		this.tokenSampleList = tokenSampleList;
+	}
+
+	public List<TokenDevice> getTokenDeviceList() {
+		return tokenDeviceList;
+	}
+
+	public void setTokenDeviceList(List<TokenDevice> tokenDeviceList) {
+		this.tokenDeviceList = tokenDeviceList;
+	}
 	
 }

@@ -4,6 +4,7 @@
 package com.labbol.smeri.api.task.token.support;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author PengFei
@@ -39,6 +40,11 @@ public class Token {
 	
 	private String state;
 
+	/**
+	 * @since 1.0.10
+	 */
+	private List<TokenProject> tokenProjectList;
+	
 	public String getId() {
 		return id;
 	}
@@ -150,8 +156,14 @@ public class Token {
 	public void setState(String state) {
 		this.state = state;
 	}
-	
-	
+
+	public List<TokenProject> getTokenProjectList() {
+		return tokenProjectList;
+	}
+
+	public void setTokenProjectList(List<TokenProject> tokenProjectList) {
+		this.tokenProjectList = tokenProjectList;
+	}
 	
 	
 }
