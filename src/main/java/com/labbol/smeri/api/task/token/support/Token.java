@@ -45,6 +45,26 @@ public class Token {
 	 */
 	private List<TokenProject> tokenProjectList;
 	
+	/**
+	 * @since 1.0.11
+	 */
+	private String entrustNo;
+	
+	/**
+	 * @since 1.0.11
+	 */
+	private String customerName;
+	
+	/**
+	 * @since 1.0.11
+	 */
+	private String groupName;
+	
+	/**
+	 * @since 1.0.11
+	 */
+	private String builderName;
+	
 	public String getId() {
 		return id;
 	}
@@ -164,6 +184,37 @@ public class Token {
 	public void setTokenProjectList(List<TokenProject> tokenProjectList) {
 		this.tokenProjectList = tokenProjectList;
 	}
-	
+
+	public String getEntrustNo() {
+		return entrustNo;
+	}
+
+	public void setEntrustNo(String entrustNo) {
+		this.entrustNo = entrustNo;
+	}
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+
+	public String getGroupName() {
+		return groupName;
+	}
+
+	public void setGroupName(String groupName) {
+		this.groupName = groupName;
+	}
+
+	public String getBuilderName() {
+		return builderName;
+	}
+
+	public void setBuilderName(String builderName) {
+		this.builderName = builderName;
+	}
 	
 }

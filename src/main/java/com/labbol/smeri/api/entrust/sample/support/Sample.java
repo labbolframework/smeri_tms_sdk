@@ -65,6 +65,20 @@ public class Sample {
 	 */
 	private String customerName;
 	
+	private String planFinishDate;
+	
+	private String testLeader;
+	
+	private String testLeaderName;
+	
+	private String tester;
+	
+	private String testerName;
+	
+	private String deviceIds;
+	
+	private String deviceNames;
+	
 	
 	public String getId() {
 		return id;
@@ -248,6 +262,62 @@ public class Sample {
 
 	public void setCustomerName(String customerName) {
 		this.customerName = customerName;
+	}
+
+	public String getPlanFinishDate() {
+		return planFinishDate;
+	}
+
+	public void setPlanFinishDate(String planFinishDate) {
+		this.planFinishDate = planFinishDate;
+	}
+
+	public String getTestLeader() {
+		return testLeader;
+	}
+
+	public void setTestLeader(String testLeader) {
+		this.testLeader = testLeader;
+	}
+
+	public String getTestLeaderName() {
+		return testLeaderName;
+	}
+
+	public void setTestLeaderName(String testLeaderName) {
+		this.testLeaderName = testLeaderName;
+	}
+
+	public String getTester() {
+		return tester;
+	}
+
+	public void setTester(String tester) {
+		this.tester = tester;
+	}
+
+	public String getTesterName() {
+		return testerName;
+	}
+
+	public void setTesterName(String testerName) {
+		this.testerName = testerName;
+	}
+
+	public String getDeviceIds() {
+		return deviceIds;
+	}
+
+	public void setDeviceIds(String deviceIds) {
+		this.deviceIds = deviceIds;
+	}
+
+	public String getDeviceNames() {
+		return deviceNames;
+	}
+
+	public void setDeviceNames(String deviceNames) {
+		this.deviceNames = deviceNames;
 	}
 	
 }

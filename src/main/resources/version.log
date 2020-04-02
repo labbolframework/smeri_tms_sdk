@@ -32,3 +32,8 @@
 	
 2020-04-01 v->1.0.10
 	1、Token、TokenProject新增字段
+	
+2020-04-02 v->1.0.11
+	1、新增querySampleByTokenWrite接口
+	2、Token新增字段
+	
