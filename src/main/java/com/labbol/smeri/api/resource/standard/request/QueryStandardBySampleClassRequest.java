@@ -15,7 +15,7 @@ public class QueryStandardBySampleClassRequest extends AbstractQueryAPIRequest<Q
 	private String MUST_QUERY_FILTER_FIELD = "sampleClassId";
 	
 	public QueryStandardBySampleClassRequest() {
-		super("/V1.0/service_resource/queryStandardBySampleClass", "POST");
+		super("/v1.0/service_resource/queryStandardBySampleClass", "POST");
 	}
 
 	@Override

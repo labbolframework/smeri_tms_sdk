@@ -15,7 +15,7 @@ public class QueryStandardByProjectRequest extends AbstractQueryAPIRequest<Query
 	private String MUST_QUERY_FILTER_FIELD = "projectId";
 
 	public QueryStandardByProjectRequest() {
-		super("/V1.0/service_resource/queryStandardByProject", "POST");
+		super("/v1.0/service_resource/queryStandardByProject", "POST");
 	}
 
 	@Override

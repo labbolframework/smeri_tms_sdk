@@ -22,7 +22,7 @@ public class CreateTaskProjectRequest extends AbstractAPIRequest<CreateTaskProje
 	};
 	
 	public CreateTaskProjectRequest() {
-		super("/V1.0/service_task/createTaskProject", "POST");
+		super("/v1.0/service_task/createTaskProject", "POST");
 	}
 
 	@Override

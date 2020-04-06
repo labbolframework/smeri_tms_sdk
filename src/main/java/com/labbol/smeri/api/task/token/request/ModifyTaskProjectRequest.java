@@ -21,7 +21,7 @@ public class ModifyTaskProjectRequest extends AbstractAPIRequest<ModifyTaskProje
 	};
 	
 	public ModifyTaskProjectRequest() {
-		super("/V1.0/service_task/modifyTaskProject", "PUT");
+		super("/v1.0/service_task/modifyTaskProject", "PUT");
 	}
 
 	@Override

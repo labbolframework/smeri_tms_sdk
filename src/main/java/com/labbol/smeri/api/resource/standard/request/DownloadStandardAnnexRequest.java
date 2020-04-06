@@ -10,7 +10,7 @@ public class DownloadStandardAnnexRequest extends AbstractAPIRequest<DownloadSta
 	private String standardId;
 
 	public DownloadStandardAnnexRequest() {
-		super("/V1.0/service_resource/downloadStandardAnnex", "GET");
+		super("/v1.0/service_resource/downloadStandardAnnex", "GET");
 	}
 
 	@Override

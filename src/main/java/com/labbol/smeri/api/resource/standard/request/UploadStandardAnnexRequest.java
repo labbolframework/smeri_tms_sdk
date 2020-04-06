@@ -24,7 +24,7 @@ public class UploadStandardAnnexRequest extends AbstractUploadFileAPIRequest<Upl
 	private static final String STANDARD_ANNEX_FIELDNAME = "file";
 	
 	public UploadStandardAnnexRequest() {
-		super("/V1.0/service_resource/uploadStandardAnnex", "POST");
+		super("/v1.0/service_resource/uploadStandardAnnex", "POST");
 	}
 
 	@Override

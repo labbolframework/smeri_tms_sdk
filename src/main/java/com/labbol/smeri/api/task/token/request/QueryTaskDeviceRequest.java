@@ -9,7 +9,7 @@ import com.labbol.smeri.api.task.token.response.QueryTaskDeviceResponse;
 public class QueryTaskDeviceRequest extends AbstractQueryAPIRequest<QueryTaskDeviceResponse> {
 
 	public QueryTaskDeviceRequest() {
-		super("/V1.0/service_task/queryTaskDevice", "POST");
+		super("/v1.0/service_task/queryTaskDevice", "POST");
 	}
 
 	@Override

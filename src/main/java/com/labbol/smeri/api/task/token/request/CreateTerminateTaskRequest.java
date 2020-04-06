@@ -19,7 +19,7 @@ public class CreateTerminateTaskRequest extends AbstractAPIRequest<CreateTermina
 	};
 	
 	public CreateTerminateTaskRequest() {
-		super("/V1.0/service_task/createTerminateTask", "POST");
+		super("/v1.0/service_task/createTerminateTask", "POST");
 	}
 
 	@Override

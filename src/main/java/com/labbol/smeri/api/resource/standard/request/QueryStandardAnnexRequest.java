@@ -13,7 +13,7 @@ import com.labbol.smeri.api.resource.standard.response.QueryStandardAnnexRespons
 public class QueryStandardAnnexRequest extends AbstractQueryAPIRequest<QueryStandardAnnexResponse> {
 
 	public QueryStandardAnnexRequest() {
-		super("/V1.0/service_resource/queryStandardAnnex", "POST");
+		super("/v1.0/service_resource/queryStandardAnnex", "POST");
 	}
 
 	@Override

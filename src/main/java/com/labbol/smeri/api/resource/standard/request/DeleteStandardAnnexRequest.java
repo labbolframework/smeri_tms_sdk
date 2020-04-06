@@ -17,7 +17,7 @@ public class DeleteStandardAnnexRequest extends AbstractAPIRequest<DeleteStandar
 	private String standardAnnexId;
 
 	public DeleteStandardAnnexRequest() {
-		super("/V1.0/service_resource/deleteStandardAnnex", "DELETE");
+		super("/v1.0/service_resource/deleteStandardAnnex", "DELETE");
 	}
 
 	@Override

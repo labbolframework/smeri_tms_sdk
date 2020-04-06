@@ -13,7 +13,7 @@ public class DeleteTaskDeviceRequest extends AbstractAPIRequest<DeleteTaskDevice
 	private String tokenDeviceId;
 	
 	public DeleteTaskDeviceRequest() {
-		super("/V1.0/service_task/deleteTaskDevice", "DELETE");
+		super("/v1.0/service_task/deleteTaskDevice", "DELETE");
 	}
 
 	@Override

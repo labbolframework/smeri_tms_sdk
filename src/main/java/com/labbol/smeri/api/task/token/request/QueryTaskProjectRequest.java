@@ -9,7 +9,7 @@ import com.labbol.smeri.api.task.token.response.QueryTaskProjectResponse;
 public class QueryTaskProjectRequest extends AbstractQueryAPIRequest<QueryTaskProjectResponse> {
 
 	public QueryTaskProjectRequest() {
-		super("/V1.0/service_task/queryTaskProject", "POST");
+		super("/v1.0/service_task/queryTaskProject", "POST");
 	}
 
 	@Override

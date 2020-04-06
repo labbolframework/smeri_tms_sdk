@@ -61,6 +61,19 @@ public class TokenProject {
 	 * @since 1.0.10
 	 */
 	private List<TokenDevice> tokenDeviceList;
+	
+	private String sampleNames;
+	
+	private String sampleIds;
+	
+	private String deviceIds;
+	
+	private String deviceNames;
+	
+	private String testerName;
+	
+	private String testLeaderName;
+	
 
 	public String getId() {
 		return id;
@@ -236,6 +249,54 @@ public class TokenProject {
 
 	public void setTokenDeviceList(List<TokenDevice> tokenDeviceList) {
 		this.tokenDeviceList = tokenDeviceList;
+	}
+
+	public String getSampleNames() {
+		return sampleNames;
+	}
+
+	public void setSampleNames(String sampleNames) {
+		this.sampleNames = sampleNames;
+	}
+
+	public String getSampleIds() {
+		return sampleIds;
+	}
+
+	public void setSampleIds(String sampleIds) {
+		this.sampleIds = sampleIds;
+	}
+
+	public String getDeviceIds() {
+		return deviceIds;
+	}
+
+	public void setDeviceIds(String deviceIds) {
+		this.deviceIds = deviceIds;
+	}
+
+	public String getDeviceNames() {
+		return deviceNames;
+	}
+
+	public void setDeviceNames(String deviceNames) {
+		this.deviceNames = deviceNames;
+	}
+
+	public String getTesterName() {
+		return testerName;
+	}
+
+	public void setTesterName(String testerName) {
+		this.testerName = testerName;
+	}
+
+	public String getTestLeaderName() {
+		return testLeaderName;
+	}
+
+	public void setTestLeaderName(String testLeaderName) {
+		this.testLeaderName = testLeaderName;
 	}
 	
 }

@@ -10,7 +10,7 @@ public class DeleteTaskProjectRequest extends AbstractAPIRequest<DeleteTaskProje
 	private String tokenProjectId;
 
 	public DeleteTaskProjectRequest() {
-		super("/V1.0/service_task/deleteTaskProject", "DELETE");
+		super("/v1.0/service_task/deleteTaskProject", "DELETE");
 	}
 
 	@Override

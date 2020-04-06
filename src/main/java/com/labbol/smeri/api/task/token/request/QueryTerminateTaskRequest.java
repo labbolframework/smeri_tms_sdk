@@ -12,7 +12,7 @@ import com.labbol.smeri.api.task.token.response.QueryTerminateTaskResponse;
 public class QueryTerminateTaskRequest extends AbstractQueryAPIRequest<QueryTerminateTaskResponse> {
 
 	public QueryTerminateTaskRequest() {
-		super("/V1.0/service_task/queryTerminateTask", "POST");
+		super("/v1.0/service_task/queryTerminateTask", "POST");
 	}
 
 	@Override

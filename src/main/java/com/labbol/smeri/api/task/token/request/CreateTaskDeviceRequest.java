@@ -22,7 +22,7 @@ public class CreateTaskDeviceRequest extends AbstractAPIRequest<CreateTaskDevice
 	};
 	
 	public CreateTaskDeviceRequest() {
-		super("/V1.0/service_task/createTaskDevice", "POST");
+		super("/v1.0/service_task/createTaskDevice", "POST");
 	}
 
 	@Override
