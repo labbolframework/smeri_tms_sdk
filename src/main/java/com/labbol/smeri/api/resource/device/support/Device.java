@@ -43,7 +43,10 @@ public class Device {
 	
 	private String buyDate;
 	
-	private Integer price;
+	/**
+	 * 修改字段类型 1.0.14
+	 */
+	private Double price;
 	
 	private String storePlace;
 	
@@ -217,11 +220,11 @@ public class Device {
 		this.buyDate = buyDate;
 	}
 
-	public Integer getPrice() {
+	public Double getPrice() {
 		return price;
 	}
 
-	public void setPrice(Integer price) {
+	public void setPrice(Double price) {
 		this.price = price;
 	}
 
