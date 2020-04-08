@@ -36,7 +36,8 @@ public class DeleteStandardAnnexRequest extends AbstractAPIRequest<DeleteStandar
 
 	@Override
 	public void check() throws APIRuleException {
-		RequestCheckUtils.checkBeanFieldNotEmpty(standardAnnexId, "standardAnnexId");
+		//RequestCheckUtils.checkBeanFieldNotEmpty(standardAnnexId, "standardAnnexId");
+		RequestCheckUtils.checkNotEmpty(standardAnnexId, "standardAnnexId");
 	}
 
 }
