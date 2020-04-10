@@ -14,9 +14,6 @@ public class ModifySampleRequest extends AbstractAPIRequest<ModifySampleResponse
 	private Sample sample;
 
 	private static final String [] SAMPLE_NOT_BLANK_FIELDES = {
-			"entrustId","productNo","sampleName","producer",
-			"sampleModel","sampleSize","sampleWeight","sampleNum",
-			"groupId",
 			"updator","state"
 	};
 

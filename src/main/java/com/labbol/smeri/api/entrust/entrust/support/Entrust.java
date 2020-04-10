@@ -134,6 +134,16 @@ public class Entrust {
 	 */
 	private List<String> standardIdList;
 	
+	/**
+	 * @since v1.0.15
+	 */
+	private String entrustFilePath;
+	
+	/**
+	 * @since v1.0.15
+	 */
+	private String entrustFileState;
+	
 	public String getId() {
 		return id;
 	}
@@ -604,6 +614,22 @@ public class Entrust {
 
 	public void setOtherReportType(String otherReportType) {
 		this.otherReportType = otherReportType;
+	}
+
+	public String getEntrustFilePath() {
+		return entrustFilePath;
+	}
+
+	public void setEntrustFilePath(String entrustFilePath) {
+		this.entrustFilePath = entrustFilePath;
+	}
+
+	public String getEntrustFileState() {
+		return entrustFileState;
+	}
+
+	public void setEntrustFileState(String entrustFileState) {
+		this.entrustFileState = entrustFileState;
 	}
 	
 }

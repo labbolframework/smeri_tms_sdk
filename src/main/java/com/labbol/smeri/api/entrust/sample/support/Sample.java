@@ -79,6 +79,15 @@ public class Sample {
 	
 	private String deviceNames;
 	
+	/**
+	 * @since 1.0.15
+	 */
+	private String sampleClassId;
+	
+	/**
+	 * @since 1.0.15
+	 */
+	private String sampleClassName;
 	
 	public String getId() {
 		return id;
@@ -318,6 +327,22 @@ public class Sample {
 
 	public void setDeviceNames(String deviceNames) {
 		this.deviceNames = deviceNames;
+	}
+
+	public String getSampleClassId() {
+		return sampleClassId;
+	}
+
+	public void setSampleClassId(String sampleClassId) {
+		this.sampleClassId = sampleClassId;
+	}
+
+	public String getSampleClassName() {
+		return sampleClassName;
+	}
+
+	public void setSampleClassName(String sampleClassName) {
+		this.sampleClassName = sampleClassName;
 	}
 	
 }

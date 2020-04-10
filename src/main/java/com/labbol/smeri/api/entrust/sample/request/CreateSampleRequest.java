@@ -16,7 +16,7 @@ public class CreateSampleRequest extends AbstractAPIRequest<CreateSampleResponse
 	
 	private static final String [] SAMPLE_NOT_BLANK_FIELDES = {
 			"entrustId","sampleName","producer",
-			"sampleModel","sampleSize","sampleWeight","sampleNum",
+			"sampleModel","sampleNum",
 			"groupId",
 			"creator","updator","state"
 	};

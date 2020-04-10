@@ -46,3 +46,7 @@
 	
 2020-04-08 v->1.0.14
 	1、修改Device的price的字段类型由Integer变更为Double
+	
+2020-04-10 ->1.0.15
+	1、委托新增委托单路径和委托单生成状态
+	2、修改CreateReportRequest的必填参数
