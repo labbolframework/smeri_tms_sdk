@@ -14,6 +14,11 @@ public class Token {
 
 	private String id;
 	
+	/**
+	 * @since 1.0.19
+	 */
+	private String tokenNo;
+	
 	private String entrustId;
 	
 	private String tokenSubject;
@@ -216,5 +221,15 @@ public class Token {
 	public void setBuilderName(String builderName) {
 		this.builderName = builderName;
 	}
+
+	public String getTokenNo() {
+		return tokenNo;
+	}
+
+	public void setTokenNo(String tokenNo) {
+		this.tokenNo = tokenNo;
+	}
+	
+	
 	
 }

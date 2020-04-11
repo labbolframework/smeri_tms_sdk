@@ -61,3 +61,5 @@
 	1、新增queryProjectByTokenWrite 接口
 	2、移除querySampleByTokenWrite接口
 	
+2020-04-11 -> 1.0.19
+	1、Token添加tokenNo字段
