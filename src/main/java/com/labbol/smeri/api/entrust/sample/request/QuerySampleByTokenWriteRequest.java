@@ -9,7 +9,9 @@ import com.labbol.smeri.api.entrust.sample.response.QuerySampleByTokenWriteRespo
 /**
  * @author PengFei
  * @since 1.0.11
+ * @deprecated 1.0.18
  */
+@Deprecated
 public class QuerySampleByTokenWriteRequest extends AbstractQueryAPIRequest<QuerySampleByTokenWriteResponse>{
 
 	public QuerySampleByTokenWriteRequest() {

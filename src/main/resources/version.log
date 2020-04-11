@@ -53,3 +53,11 @@
 
 2020-04-10 ->1.0.16
 	1、修改CreateReportRequest的必填参数
+	
+2020-04-11 ->1.0.17
+	1、新增modifyTaskById 接口
+	
+2020-04-11 ->1.0.18
+	1、新增queryProjectByTokenWrite 接口
+	2、移除querySampleByTokenWrite接口
+	
