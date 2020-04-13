@@ -13,7 +13,7 @@ import com.labbol.smeri.api.task.token.response.QueryTaskFlowResponse;
 public class QueryTaskFlowRequest extends AbstractQueryAPIRequest<QueryTaskFlowResponse>{
 
 	public QueryTaskFlowRequest() {
-		super("/v1.0/service_task/queryTaskFlow", "PUT");
+		super("/v1.0/service_task/queryTaskFlow", "POST");
 	}
 
 	@Override

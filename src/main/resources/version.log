@@ -66,3 +66,9 @@
 	
 2020-04-13 -> 1.0.20
 	1、新增CreateTaskFlowRequest.java、ModifyTaskFlowRequest.java、QueryTaskFlowRequest.java
+	
+2020-04-13 -> 1.0.21
+	1、TaskFlow 添加基础字段
+	
+2020-04-13 -> 1.0.22
+	1、修改QueryTaskFlowRequest的method PUT->POST
