@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.labbolframework.704tms</groupId>
 	<artifactId>smeri_tms_sdk</artifactId>
-	<version>1.0.19</version>
+	<version>1.0.20</version>
 	<name>com.github.labbolframework.smeri_tms_sdk</name>
 	<url>https://github.com/labbolframework/smeri_tms_sdk.git</url>
 	<description>704 sdk</description>
