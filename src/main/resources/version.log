@@ -72,3 +72,6 @@
 	
 2020-04-13 -> 1.0.22
 	1、修改QueryTaskFlowRequest的method PUT->POST
+	
+2020-04-15 -> 1.0.23
+	1、新增CreateTaskChangeLogRequest、QueryTaskChangeLogRequest接口
