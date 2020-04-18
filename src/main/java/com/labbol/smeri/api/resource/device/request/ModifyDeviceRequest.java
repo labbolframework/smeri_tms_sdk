@@ -16,7 +16,6 @@ public class ModifyDeviceRequest extends AbstractAPIRequest<ModifyDeviceResponse
 	private String deviceId;
 	
 	private static final String [] DEVICE_NOT_BLANK_FIELDS = {
-			"deviceNo","deviceName",
 			"updator","state"
 	};
 	

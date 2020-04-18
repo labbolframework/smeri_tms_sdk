@@ -19,7 +19,6 @@ public class ModifyStandardRequest extends AbstractAPIRequest<ModifyStandardResp
 	private Standard standard;
 	
 	private static final String [] STANDARD_NOT_BLANK_FIELDS = {
-			"standardNo","standardName","standardType",
 			"updator","state"
 	};
 	

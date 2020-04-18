@@ -14,8 +14,6 @@ public class ModifyFeeStandardRequest extends AbstractAPIRequest<ModifyFeeStanda
 	private FeeStandard feeStandard;
 	
 	private static final String [] FEE_STANDARD_NOT_BLANK_FIELDES = {
-			"feeName","sampleName","sampleModel","projectName",
-			"testFee","remark",
 			"updator","state"
 	};
 	

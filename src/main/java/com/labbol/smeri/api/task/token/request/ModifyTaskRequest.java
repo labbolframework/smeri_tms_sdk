@@ -19,8 +19,7 @@ public class ModifyTaskRequest extends AbstractAPIRequest<ModifyTaskResponse> {
 	private Token token;
 
 	private static final String [] TOKEN_NOT_BLANK_FIELDS = {
-			"entrustId","tokenSubject","builder","buildTime","tokenState",
-			"groupId","updator","state"
+			"updator","state"
 	};
 
 	public ModifyTaskRequest() {

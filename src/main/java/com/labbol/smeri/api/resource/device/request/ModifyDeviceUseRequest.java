@@ -16,7 +16,6 @@ public class ModifyDeviceUseRequest extends AbstractAPIRequest<ModifyDeviceUseRe
 	private DeviceUse deviceUse;
 
 	private static final String [] DEVICE_USE_NOT_BLANK_FIELDS = {
-			"deviceId","useEndTime",
 			"updator","state"
 	};
 	

@@ -74,7 +74,16 @@ public class TokenProject {
 	
 	private String testLeaderName;
 	
-
+	/**
+	 * @since 1.0.24
+	 */
+	private String sampleClassId;
+	
+	/**
+	 * @since 1.0.24
+	 */
+	private String checkerName;
+	
 	public String getId() {
 		return id;
 	}
@@ -298,5 +307,23 @@ public class TokenProject {
 	public void setTestLeaderName(String testLeaderName) {
 		this.testLeaderName = testLeaderName;
 	}
+
+	public String getSampleClassId() {
+		return sampleClassId;
+	}
+
+	public void setSampleClassId(String sampleClassId) {
+		this.sampleClassId = sampleClassId;
+	}
+
+	public String getCheckerName() {
+		return checkerName;
+	}
+
+	public void setCheckerName(String checkerName) {
+		this.checkerName = checkerName;
+	}
+	
+	
 	
 }

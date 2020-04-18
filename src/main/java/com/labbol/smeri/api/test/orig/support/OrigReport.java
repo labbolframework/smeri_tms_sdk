@@ -50,6 +50,17 @@ public class OrigReport {
 	
 	private String state;
 
+	/**
+	 * @since 1.0.24
+	 */
+	private String fileUrlPdf;
+	
+	/**
+	 * @since 1.0.24
+	 */
+	private String fileUrlPdfSign;
+	
+	
 	public String getId() {
 		return id;
 	}
@@ -210,6 +221,20 @@ public class OrigReport {
 		this.state = state;
 	}
 
+	public String getFileUrlPdf() {
+		return fileUrlPdf;
+	}
 
-	
+	public void setFileUrlPdf(String fileUrlPdf) {
+		this.fileUrlPdf = fileUrlPdf;
+	}
+
+	public String getFileUrlPdfSign() {
+		return fileUrlPdfSign;
+	}
+
+	public void setFileUrlPdfSign(String fileUrlPdfSign) {
+		this.fileUrlPdfSign = fileUrlPdfSign;
+	}
+
 }

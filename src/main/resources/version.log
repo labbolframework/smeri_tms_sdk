@@ -75,3 +75,6 @@
 	
 2020-04-15 -> 1.0.23
 	1、新增CreateTaskChangeLogRequest、QueryTaskChangeLogRequest接口
+	
+2020-04-17 -> 1.0.24
+	1、新增Sample、TokenProject中的参数

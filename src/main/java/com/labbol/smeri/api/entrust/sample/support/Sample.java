@@ -89,6 +89,11 @@ public class Sample {
 	 */
 	private String sampleClassName;
 	
+	/**
+	 * @since 1.0.24
+	 */
+	private String sampleNumUnit;
+	
 	public String getId() {
 		return id;
 	}
@@ -343,6 +348,14 @@ public class Sample {
 
 	public void setSampleClassName(String sampleClassName) {
 		this.sampleClassName = sampleClassName;
+	}
+
+	public String getSampleNumUnit() {
+		return sampleNumUnit;
+	}
+
+	public void setSampleNumUnit(String sampleNumUnit) {
+		this.sampleNumUnit = sampleNumUnit;
 	}
 	
 }

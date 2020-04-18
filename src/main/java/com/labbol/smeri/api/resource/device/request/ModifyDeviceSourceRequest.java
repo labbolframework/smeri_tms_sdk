@@ -16,7 +16,6 @@ public class ModifyDeviceSourceRequest extends AbstractAPIRequest<ModifyDeviceSo
 	private DeviceSource deviceSource;
 
 	private static final String [] DEVICE_SOURCE_NOT_BLANK_FIELDS = {
-			"deviceId","sourceCycle",
 			"updator","state"
 	};
 

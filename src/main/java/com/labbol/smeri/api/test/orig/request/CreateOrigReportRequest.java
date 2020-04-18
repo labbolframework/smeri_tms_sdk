@@ -16,9 +16,9 @@ public class CreateOrigReportRequest extends AbstractAPIRequest<CreateOrigReport
 
 	private OrigReport origReport;
 	
-	private static final String [] ORIG_REPORT_NOT_BLANK_FIELDS = {"poaId","tokenId","reportNo","reportName","testStartDate"
-			,"testEndDate","testAddr","tester","checker","conclusion","groupId",
-			"fileUrl","reportGenSate","creator","updator","state"};
+	private static final String [] ORIG_REPORT_NOT_BLANK_FIELDS = {"poaId","tokenId","reportNo","reportName","testStartDate",
+			"testEndDate","testAddr","tester","checker","conclusion","groupId",
+			"reportGenSate","creator","updator","state"};
 	
 	public CreateOrigReportRequest() {
 		super("/v1.0/service_test/createOrigReport", "POST");

@@ -18,9 +18,7 @@ public class ModifyOrigReportRequest extends AbstractAPIRequest<ModifyOrigReport
 
 	private OrigReport origReport;
 
-	private static final String [] ORIG_REPORT_NOT_BLANK_FIELDS = {"poaId","tokenId","reportNo","reportName","testStartDate"
-			,"testEndDate","testAddr","tester","checker","conclusion","groupId",
-			"fileUrl","reportGenSate","updator","state"};
+	private static final String [] ORIG_REPORT_NOT_BLANK_FIELDS = {"updator","state"};
 
 
 	public ModifyOrigReportRequest() {

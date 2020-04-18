@@ -17,7 +17,6 @@ public class ModifyEntrustStandardRequest extends AbstractAPIRequest<ModifyEntru
 	private EntrustStandard entrustStandard;
 
 	private static final String [] ENTRUST_STANDARD_NOT_BLANK_FIELDES = {
-			"entrustId","basisId",
 			"updator","state"
 	};
 

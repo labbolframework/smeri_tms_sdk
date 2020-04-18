@@ -16,8 +16,7 @@ public class ModifyTaskProjectRequest extends AbstractAPIRequest<ModifyTaskProje
 	private TokenProject tokenProject;
 	
 	private static final String [] TOKEN_PROJECT_NOT_BLANK_FIELDS = {
-			"tokenId","projectName","testLeader","tester","testTime",
-			"finishState","updator","state"
+			"updator","state"
 	};
 	
 	public ModifyTaskProjectRequest() {

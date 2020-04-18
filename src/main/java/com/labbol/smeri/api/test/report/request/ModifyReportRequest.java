@@ -18,9 +18,7 @@ public class ModifyReportRequest extends AbstractAPIRequest<ModifyReportResponse
 
 	private Report report;	
 
-	private static final String [] REPORT_NOT_BLANK_FIELDS = {"poaId","tokenId","reportNo","reportName","testStartDate"
-			,"testEndDate","testAddr","tester","checker","conclusion","groupId",
-			"fileUrl","reportGenSate","updator","state"};
+	private static final String [] REPORT_NOT_BLANK_FIELDS = {"updator","state"};
 
 	public ModifyReportRequest() {
 		super("/v1.0/service_test/modifyReport", "PUT");
