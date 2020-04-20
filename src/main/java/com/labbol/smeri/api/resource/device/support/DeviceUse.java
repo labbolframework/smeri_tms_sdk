@@ -33,6 +33,11 @@ public class DeviceUse {
 	
 	private String state;
 
+	/**
+	 * @since 1.0.25
+	 */
+	private String tokenProjectId;
+	
 	public String getId() {
 		return id;
 	}
@@ -135,6 +140,14 @@ public class DeviceUse {
 
 	public void setState(String state) {
 		this.state = state;
+	}
+
+	public String getTokenProjectId() {
+		return tokenProjectId;
+	}
+
+	public void setTokenProjectId(String tokenProjectId) {
+		this.tokenProjectId = tokenProjectId;
 	}
 	
 }

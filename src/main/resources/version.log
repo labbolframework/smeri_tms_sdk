@@ -78,3 +78,7 @@
 	
 2020-04-17 -> 1.0.24
 	1、新增Sample、TokenProject中的参数
+	2、修改所有Modify请求的必填参数
+
+2020-04-20 -> 1.0.25
+	1、com.labbol.smeri.api.resource.device.support.DeviceUse新增字段
