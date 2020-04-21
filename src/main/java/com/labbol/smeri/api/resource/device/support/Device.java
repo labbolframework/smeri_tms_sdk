@@ -75,6 +75,11 @@ public class Device {
 	 * @since v1.0.5
 	 */
 	private String groupName;
+
+	/**
+	 * @since 1.0.26
+	 */
+	private String deviceTag;
 	
 	public String getId() {
 		return id;
@@ -322,6 +327,14 @@ public class Device {
 
 	public void setGroupName(String groupName) {
 		this.groupName = groupName;
+	}
+
+	public String getDeviceTag() {
+		return deviceTag;
+	}
+
+	public void setDeviceTag(String deviceTag) {
+		this.deviceTag = deviceTag;
 	}
 	
 }

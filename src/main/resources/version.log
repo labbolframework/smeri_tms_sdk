@@ -82,3 +82,6 @@
 
 2020-04-20 -> 1.0.25
 	1、com.labbol.smeri.api.resource.device.support.DeviceUse新增字段
+
+2020-04-21 -> 1.0.26
+	1、com.labbol.smeri.api.resource.device.support.Device新增字段
