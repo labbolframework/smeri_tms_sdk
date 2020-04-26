@@ -57,6 +57,8 @@ public class ReportSend {
 
 	private String tel;
 
+	private String entrustNo;
+
 	public String getId() {
 		return id;
 	}
@@ -241,4 +243,12 @@ public class ReportSend {
 		this.tel = tel;
 	}
 
+	public String getEntrustNo() {
+		return entrustNo;
+	}
+
+	public void setEntrustNo(String entrustNo) {
+		this.entrustNo = entrustNo;
+	}
+	
 }
