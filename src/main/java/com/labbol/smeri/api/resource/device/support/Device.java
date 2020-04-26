@@ -81,6 +81,8 @@ public class Device {
 	 */
 	private String deviceTag;
 	
+	private String verificationEffDate;
+	
 	public String getId() {
 		return id;
 	}
@@ -335,6 +337,14 @@ public class Device {
 
 	public void setDeviceTag(String deviceTag) {
 		this.deviceTag = deviceTag;
+	}
+
+	public String getVerificationEffDate() {
+		return verificationEffDate;
+	}
+
+	public void setVerificationEffDate(String verificationEffDate) {
+		this.verificationEffDate = verificationEffDate;
 	}
 	
 }
