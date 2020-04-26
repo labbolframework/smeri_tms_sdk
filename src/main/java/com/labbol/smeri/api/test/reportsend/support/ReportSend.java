@@ -4,6 +4,7 @@
 package com.labbol.smeri.api.test.reportsend.support;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author PengFei
@@ -50,6 +51,8 @@ public class ReportSend {
 	
 	private String state;
 
+	private List<ReportSendDetail> reportSendDetails;
+	
 	public String getId() {
 		return id;
 	}
@@ -208,6 +211,14 @@ public class ReportSend {
 
 	public void setState(String state) {
 		this.state = state;
+	}
+
+	public List<ReportSendDetail> getReportSendDetails() {
+		return reportSendDetails;
+	}
+
+	public void setReportSendDetails(List<ReportSendDetail> reportSendDetails) {
+		this.reportSendDetails = reportSendDetails;
 	}
 	
 }

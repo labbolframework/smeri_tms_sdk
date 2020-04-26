@@ -85,3 +85,6 @@
 
 2020-04-21 -> 1.0.26
 	1、com.labbol.smeri.api.resource.device.support.Device新增字段
+	
+???? -> 1.0.27
+	1、com.labbol.smeri.api.test.reportsend.support.ReportSend新增字段
