@@ -12,47 +12,51 @@ import java.util.List;
 public class ReportSend {
 
 	private String id;
-	
+
 	private String poaId;
-	
+
 	private String customerName;
-	
+
 	private String receiver;
-	
+
 	private String sender;
-	
+
 	private String sendType;
-	
+
 	private String sendTime;
-	
+
 	private String expressCompany;
-	
+
 	private String expressNo;
-	
+
 	private String receiverTel;
-	
+
 	private String receiverAddr;
-	
+
 	private String receiverEmail;
-	
+
 	private String remark;
-	
+
 	private String payState;
-	
+
 	private String payAmount;
-	
+
 	private String creator;
-	
+
 	private Date createTime;
-	
+
 	private String updator;
-	
+
 	private Date updateTime;
-	
+
 	private String state;
 
 	private List<ReportSendDetail> reportSendDetails;
-	
+
+	private String contactName;
+
+	private String tel;
+
 	public String getId() {
 		return id;
 	}
@@ -220,5 +224,21 @@ public class ReportSend {
 	public void setReportSendDetails(List<ReportSendDetail> reportSendDetails) {
 		this.reportSendDetails = reportSendDetails;
 	}
-	
+
+	public String getContactName() {
+		return contactName;
+	}
+
+	public void setContactName(String contactName) {
+		this.contactName = contactName;
+	}
+
+	public String getTel() {
+		return tel;
+	}
+
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+
 }
