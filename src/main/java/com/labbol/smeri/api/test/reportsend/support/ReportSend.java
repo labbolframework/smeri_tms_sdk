@@ -59,6 +59,10 @@ public class ReportSend {
 
 	private String entrustNo;
 
+	private String detailIds;
+
+	private String sendNums;
+
 	public String getId() {
 		return id;
 	}
@@ -249,6 +253,22 @@ public class ReportSend {
 
 	public void setEntrustNo(String entrustNo) {
 		this.entrustNo = entrustNo;
+	}
+
+	public String getDetailIds() {
+		return detailIds;
+	}
+
+	public void setDetailIds(String detailIds) {
+		this.detailIds = detailIds;
+	}
+
+	public String getSendNums() {
+		return sendNums;
+	}
+
+	public void setSendNums(String sendNums) {
+		this.sendNums = sendNums;
 	}
 	
 }
