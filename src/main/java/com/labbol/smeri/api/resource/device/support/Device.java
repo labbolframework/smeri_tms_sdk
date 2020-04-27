@@ -83,6 +83,13 @@ public class Device {
 	
 	private String verificationEffDate;
 	
+	/**
+	 * @since 1.0.27
+	 */
+	private String keeperName;
+	
+	
+	
 	public String getId() {
 		return id;
 	}
@@ -345,6 +352,14 @@ public class Device {
 
 	public void setVerificationEffDate(String verificationEffDate) {
 		this.verificationEffDate = verificationEffDate;
+	}
+
+	public String getKeeperName() {
+		return keeperName;
+	}
+
+	public void setKeeperName(String keeperName) {
+		this.keeperName = keeperName;
 	}
 	
 }
