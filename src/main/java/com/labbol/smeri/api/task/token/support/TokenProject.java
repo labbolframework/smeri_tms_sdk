@@ -84,6 +84,11 @@ public class TokenProject {
 	 */
 	private String checkerName;
 	
+	/**
+	 * @since 1.0.27
+	 */
+	private String sampleNos;
+	
 	public String getId() {
 		return id;
 	}
@@ -322,6 +327,14 @@ public class TokenProject {
 
 	public void setCheckerName(String checkerName) {
 		this.checkerName = checkerName;
+	}
+
+	public String getSampleNos() {
+		return sampleNos;
+	}
+
+	public void setSampleNos(String sampleNos) {
+		this.sampleNos = sampleNos;
 	}
 	
 	
