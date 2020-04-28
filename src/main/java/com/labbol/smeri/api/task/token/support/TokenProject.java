@@ -89,6 +89,11 @@ public class TokenProject {
 	 */
 	private String sampleNos;
 	
+	/**
+	 * @since 1.0.27
+	 */
+	private String taskExecuteAddress;
+	
 	public String getId() {
 		return id;
 	}
@@ -336,7 +341,13 @@ public class TokenProject {
 	public void setSampleNos(String sampleNos) {
 		this.sampleNos = sampleNos;
 	}
-	
-	
+
+	public String getTaskExecuteAddress() {
+		return taskExecuteAddress;
+	}
+
+	public void setTaskExecuteAddress(String taskExecuteAddress) {
+		this.taskExecuteAddress = taskExecuteAddress;
+	}
 	
 }
