@@ -60,6 +60,11 @@ public class Report {
 	 */
 	private String fileUrlPdfSign;
 	
+	/**
+	 * @since 1.0.27
+	 */
+	private String docState;
+	
 	public String getId() {
 		return id;
 	}
@@ -234,6 +239,14 @@ public class Report {
 
 	public void setFileUrlPdfSign(String fileUrlPdfSign) {
 		this.fileUrlPdfSign = fileUrlPdfSign;
+	}
+
+	public String getDocState() {
+		return docState;
+	}
+
+	public void setDocState(String docState) {
+		this.docState = docState;
 	}
 	
 }
