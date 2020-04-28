@@ -17,7 +17,7 @@ public class CreateOrigReportRequest extends AbstractAPIRequest<CreateOrigReport
 	private OrigReport origReport;
 	
 	private static final String [] ORIG_REPORT_NOT_BLANK_FIELDS = {"poaId","tokenId","reportNo","reportName","testStartDate",
-			"testEndDate","testAddr","tester","checker","conclusion","groupId",
+			"testEndDate","testAddr","tester","checker","groupId",
 			"reportGenSate","creator","updator","state"};
 	
 	public CreateOrigReportRequest() {

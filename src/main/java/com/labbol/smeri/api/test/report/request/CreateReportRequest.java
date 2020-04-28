@@ -17,7 +17,7 @@ public class CreateReportRequest extends AbstractAPIRequest<CreateReportResponse
 	private Report report;	
 	
 	private static final String [] REPORT_NOT_BLANK_FIELDS = {"poaId","tokenId","reportNo","reportName",
-			"testDate","testAddr","tester","checker","conclusion","groupId",
+			"testDate","testAddr","tester","checker","groupId",
 			"reportGenSate","creator","updator","state"};
 	
 	public CreateReportRequest() {
