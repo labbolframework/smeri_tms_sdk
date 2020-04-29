@@ -17,7 +17,7 @@ public class CreateDeviceRequest extends AbstractAPIRequest<CreateDeviceResponse
 	private Device device;
 
 	private static final String [] DEVICE_NOT_BLANK_FIELDS = {
-			"deviceNo","deviceName","deviceState","groupId",
+			"deviceName","deviceState","groupId",
 			"creator","updator","state"};
 
 	public CreateDeviceRequest() {
