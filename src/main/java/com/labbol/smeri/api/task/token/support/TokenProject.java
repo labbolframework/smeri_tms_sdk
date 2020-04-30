@@ -13,87 +13,96 @@ import java.util.List;
 public class TokenProject {
 
 	private String id;
-	
+
 	private String tokenId;
-	
+
 	private String projectId;
-	
+
 	private String projectName;
-	
+
 	private String testAddr;
-	
+
 	private String testLeader;
-	
+
 	private String tester;
-	
+
 	private String checker;
-	
+
 	private String testTime;
-	
+
 	private String finishTime;
-	
+
 	private String testFilePath;
-	
+
 	private String conclusion;
-	
+
 	private String finishState;
-	
+
 	private String remark;
-	
+
 	private Integer projectOrder;
-	
+
 	private String creator;
-	
+
 	private Date createTime;
-	
+
 	private String updator;
-	
+
 	private Date updateTime;
-	
+
 	private String state;
-	
+
 	/**
 	 * @since 1.0.10
 	 */
 	private List<TokenSample> tokenSampleList;
-	
+
 	/**
 	 * @since 1.0.10
 	 */
 	private List<TokenDevice> tokenDeviceList;
-	
+
 	private String sampleNames;
-	
+
 	private String sampleIds;
-	
+
 	private String deviceIds;
-	
+
 	private String deviceNames;
-	
+
 	private String testerName;
-	
+
 	private String testLeaderName;
-	
+
 	/**
 	 * @since 1.0.24
 	 */
 	private String sampleClassId;
-	
+
 	/**
 	 * @since 1.0.24
 	 */
 	private String checkerName;
-	
+
 	/**
 	 * @since 1.0.27
 	 */
 	private String sampleNos;
-	
+
 	/**
 	 * @since 1.0.27
 	 */
 	private String taskExecuteAddress;
-	
+
+
+	private String origReportNos;
+
+
+	private String reportNos;
+
+
+	private String gfReportNos;
+
 	public String getId() {
 		return id;
 	}
@@ -348,6 +357,30 @@ public class TokenProject {
 
 	public void setTaskExecuteAddress(String taskExecuteAddress) {
 		this.taskExecuteAddress = taskExecuteAddress;
+	}
+
+	public String getOrigReportNos() {
+		return origReportNos;
+	}
+
+	public void setOrigReportNos(String origReportNos) {
+		this.origReportNos = origReportNos;
+	}
+
+	public String getReportNos() {
+		return reportNos;
+	}
+
+	public void setReportNos(String reportNos) {
+		this.reportNos = reportNos;
+	}
+
+	public String getGfReportNos() {
+		return gfReportNos;
+	}
+
+	public void setGfReportNos(String gfReportNos) {
+		this.gfReportNos = gfReportNos;
 	}
 	
 }
