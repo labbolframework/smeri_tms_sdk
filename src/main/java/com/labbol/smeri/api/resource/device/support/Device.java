@@ -8,66 +8,66 @@ import java.util.Date;
 public class Device {
 
 	private String id;
-	
+
 	private String deviceNo;
-	
+
 	private String filesNo;
-	
+
 	private String deviceName;
-	
+
 	private String productNo;
-	
+
 	private String manufacturer;
-	
+
 	private String specification;
-	
+
 	private String deviceModel;
-	
+
 	private String measureName;
-	
+
 	private String measureRange;
-	
+
 	private String accuracyGrade;
-	
+
 	private String sourceUnit;
-	
+
 	private String sourceCycle;
-	
+
 	private String sourcePlanTime;
-	
+
 	private String sourceTime;
-	
+
 	private String sourceResult;
-	
+
 	private String verificationNo;
-	
+
 	private String buyDate;
-	
+
 	/**
 	 * 修改字段类型 1.0.14
 	 */
 	private Double price;
-	
+
 	private String storePlace;
-	
+
 	private String keeper;
-	
+
 	private String fixedAssetNo;
-	
+
 	private String remark;
-	
+
 	private String deviceState;
-	
+
 	private String groupId;
-	
+
 	private String creator;
-	
+
 	private Date createTime;
-	
+
 	private String updator;
-	
+
 	private Date updateTime;
-	
+
 	private String state;
 
 	/**
@@ -80,16 +80,16 @@ public class Device {
 	 * @since 1.0.26
 	 */
 	private String deviceTag;
-	
+
 	private String verificationEffDate;
-	
+
 	/**
 	 * @since 1.0.27
 	 */
 	private String keeperName;
-	
-	
-	
+
+	private String isSource;
+
 	public String getId() {
 		return id;
 	}
@@ -360,6 +360,14 @@ public class Device {
 
 	public void setKeeperName(String keeperName) {
 		this.keeperName = keeperName;
+	}
+
+	public String getIsSource() {
+		return isSource;
+	}
+
+	public void setIsSource(String isSource) {
+		this.isSource = isSource;
 	}
 	
 }
