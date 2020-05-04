@@ -18,7 +18,7 @@ public class CreateReportSendRequest extends AbstractAPIRequest<CreateReportSend
 	
 	private static final String [] REPORT_SEND_NOT_BLANK_FIELDS = {
 			"poaId","customerName","receiver","sender","sendType",
-			"sendTime","payState","payAmount","creator","updator"
+			"sendTime","creator","updator"
 	};
 	
 	public CreateReportSendRequest() {
