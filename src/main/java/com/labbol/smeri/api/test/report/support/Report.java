@@ -3,6 +3,8 @@
  */
 package com.labbol.smeri.api.test.report.support;
 
+import java.util.Date;
+
 /**
  * @author PengFei
  */
@@ -80,6 +82,18 @@ public class Report {
 
 	private String sampleReceiveDate;
 
+	private String id;
+	
+	private Date createTime;
+	
+	private String creator;
+	
+	private String updator;
+	
+	private Date updateTime;
+	
+	private String state;
+	
 	public String getPoaId() {
 		return poaId;
 	}
@@ -318,6 +332,54 @@ public class Report {
 
 	public void setSampleReceiveDate(String sampleReceiveDate) {
 		this.sampleReceiveDate = sampleReceiveDate;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public Date getCreateTime() {
+		return createTime;
+	}
+
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+
+	public String getCreator() {
+		return creator;
+	}
+
+	public void setCreator(String creator) {
+		this.creator = creator;
+	}
+
+	public String getUpdator() {
+		return updator;
+	}
+
+	public void setUpdator(String updator) {
+		this.updator = updator;
+	}
+
+	public Date getUpdateTime() {
+		return updateTime;
+	}
+
+	public void setUpdateTime(Date updateTime) {
+		this.updateTime = updateTime;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
 	}
 	
 }
