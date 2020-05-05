@@ -9,78 +9,83 @@ import java.util.Date;
  * @since 1.0.20
  */
 public class TaskFlow{
-	
+
 	private String flowName;
-	
+
 	private String flowState;
-	
+
+	/**
+	 * @since 1.0.27
+	 */
+	private String flowCode;
+
 	private String flowIdentity;
-	
+
 	private String executor;
-	
+
 	private String sender;
-	
+
 	private Date beginTime;
-	
+
 	private Date endTime;
-	
+
 	private String approveResult;
-	
+
 	private String approveRemark;
-	
+
 	private String extendField1;
-	
+
 	private String extendField2;
-	
+
 	private String extendField3;
-	
+
 	private String extendField4;
-	
+
 	private String extendField5;
-	
+
 	private String executors;
-	
+
 	private String executorName;
-	
+
 	private String senderName;
-	
+
 	private String entrustId;
-	
+
 	private String entrustNo;
-	
+
 	private String customerName;
-	
+
 	private String tokenId;
-	
+
 	private String tokenNo;
-	
+
 	private String tokenSubject;
-	
+
 	private String builder;
-	
+
 	private String builderName;
-	
+
 	private String tokenState;
-	
+
 	private String groupId;
-	
+
 	private String groupName;
-	
+
 	private String remark;
 
 	private String id;
-	
+
 	private String creator;
-	
+
 	private Date createTime;
-	
+
 	private String updator;
-	
+
 	private Date updateTime;
-	
+
 	private String state;
-	
-	
+
+
 	public String getFlowName() {
 		return flowName;
 	}
@@ -347,5 +352,13 @@ public class TaskFlow{
 	public void setState(String state) {
 		this.state = state;
 	}
-	
+
+	public String getFlowCode() {
+		return flowCode;
+	}
+
+	public void setFlowCode(String flowCode) {
+		this.flowCode = flowCode;
+	}
+
 }
