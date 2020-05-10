@@ -38,6 +38,8 @@ public class DeviceUse {
 	 */
 	private String tokenProjectId;
 	
+	private String operatorName;
+	
 	public String getId() {
 		return id;
 	}
@@ -148,6 +150,14 @@ public class DeviceUse {
 
 	public void setTokenProjectId(String tokenProjectId) {
 		this.tokenProjectId = tokenProjectId;
+	}
+
+	public String getOperatorName() {
+		return operatorName;
+	}
+
+	public void setOperatorName(String operatorName) {
+		this.operatorName = operatorName;
 	}
 	
 }
